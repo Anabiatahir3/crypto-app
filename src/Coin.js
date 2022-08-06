@@ -7,6 +7,7 @@ function Coin({ name, icon, price, symbol }) {
       <img src={icon} />
       <h3> Price: {price}</h3>
       <h3> Symbol: {symbol}</h3>
+      <button className="view"></button>
     </div>
   );
 }
